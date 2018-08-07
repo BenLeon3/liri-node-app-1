@@ -74,8 +74,11 @@ function spotifySongs (){
             console.log("          |           /            _|               ");
             console.log("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
             console.log("Artist: " + data.tracks.items[0].artists[0].name);
+            console.log("-----------------------------------------------------");
             console.log("Song: " + data.tracks.items[0].name);
+            console.log("-----------------------------------------------------");
             console.log("Preview URL: " + data.tracks.items[0].preview_url);
+            console.log("-----------------------------------------------------");
             console.log("Album: " + data.tracks.items[0].album.name);
             console.log("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
     });
@@ -113,12 +116,19 @@ function movies(){
             console.log("");
             console.log("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
             console.log("Title: " + JSON.parse(body).Title);
+            console.log("-----------------------------------------------------");
             console.log("Release Year: " + JSON.parse(body).Year);
+            console.log("-----------------------------------------------------");
             console.log("IMDB Rating: " + JSON.parse(body).Ratings[0].Value);
+            console.log("-----------------------------------------------------");
             console.log("Rotten Tomatoes Rating " + JSON.parse(body).Ratings[1].Value);
+            console.log("-----------------------------------------------------");
             console.log("Produced In: " + JSON.parse(body).Country);
+            console.log("-----------------------------------------------------");
             console.log("Language: " + JSON.parse(body).Language);
+            console.log("-----------------------------------------------------");
             console.log("Plot: " + JSON.parse(body).Plot);
+            console.log("-----------------------------------------------------");
             console.log("Starring: " + JSON.parse(body).Actors);
             console.log("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
         }
@@ -151,8 +161,11 @@ function doAsISay() {
                 console.log("          |           /            _|               ");
                 console.log("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
                 console.log("Artist: " + data.tracks.items[0].artists[0].name);
+                console.log("-----------------------------------------------------");
                 console.log("Song: " + data.tracks.items[0].name);
+                console.log("-----------------------------------------------------");
                 console.log("Preview URL: " + data.tracks.items[0].preview_url);
+                console.log("-----------------------------------------------------");
                 console.log("Album: " + data.tracks.items[0].album.name);
                 console.log("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
         });
